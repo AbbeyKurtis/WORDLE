@@ -135,6 +135,8 @@ public class WORDLE extends javax.swing.JFrame {
         EDIT = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(70, 67));
+        setMinimumSize(new java.awt.Dimension(70, 67));
 
         Wrd1L1.setBackground(new java.awt.Color(153, 153, 153));
         Wrd1L1.setMaximumSize(new java.awt.Dimension(70, 67));
